@@ -1,24 +1,9 @@
-# README
+# service-booker / uslugo-rezerwator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Serwis dla osob, ktore chca udostepnic swoj czas na w celu wykonania uslugi.
 
-Things you may want to cover:
+## Funkcjonalnosci:
+- zarzadzanie rejestracja (przegladanie, rejestracja, odwolanie)
+- TBD
+- ...
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
