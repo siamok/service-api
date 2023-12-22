@@ -2,6 +2,7 @@
 
 module Users
   class SessionsController < Devise::SessionsController
+    include RackSessionsFix
     respond_to :json
 
     def respond_with(current_user, _opts = {})
