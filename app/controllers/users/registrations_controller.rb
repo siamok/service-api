@@ -2,7 +2,7 @@
 
 module Users
   class RegistrationsController < Devise::RegistrationsController
-    responds_to :json
+    respond_to :json
 
     private
 
