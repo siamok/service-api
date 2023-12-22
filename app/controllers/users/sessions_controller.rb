@@ -2,7 +2,7 @@
 
 module Users
   class SessionsController < Devise::SessionsController
-    responds_to :json
+    respond_to :json
 
     def respond_with(current_user, _opts = {})
       render json: {
