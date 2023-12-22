@@ -263,7 +263,7 @@ Devise.setup do |config|
   # should add them to the navigational formats lists.
   #
   # The "*/*" below is required to match Internet Explorer requests.
-  # [] - This will prevent devise from using flash messages which are a default 
+  # [] - This will prevent devise from using flash messages which are a default
   # feature and are not present in Rails api mode.
   config.navigational_formats = []
 
@@ -322,5 +322,5 @@ Devise.setup do |config|
       ['DELETE', %r{^/logout$}]
     ]
     jwt.expiration_time = 30.minutes.to_i
- end
+  end
 end

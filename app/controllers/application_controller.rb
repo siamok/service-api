@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::API
   before_action :configure_permitted_parameters, if: :devise_controller?
 
@@ -8,4 +10,3 @@ class ApplicationController < ActionController::API
     devise_parameter_sanitizer.permit(:account_update, keys: %i[name avatar])
   end
 end
-
